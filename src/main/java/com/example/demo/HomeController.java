@@ -8,11 +8,11 @@ public class HomeController {
 	
 	@GetMapping("/csehome")
 	public String cseHome() {
-		return "বাড়া** চুলকাচুলকি বাদ দিয়ে পড়তে বসেন 😔😔";
+		return "WELCOME TO CSE 😔😔";
 	}
 	
 	@GetMapping("/myrocks")
 	public String rocks() {
-		return "তোর মতন মানুষরা থাকলেই তো জীবনটা সুন্দর হয়ে যায় ভাই 💙";
+		return "HELLO WORLD!!!!!!!! 💙";
 	}
 }
