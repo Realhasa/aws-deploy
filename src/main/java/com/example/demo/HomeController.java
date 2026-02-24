@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/csehome")
 	public String cseHome() {
-		return "Welcome to CSE Spring RESTapi";
+		return "বাড়া** চুলকাচুলকি বাদ দিয়ে পড়তে বসেন 😔😔";
 	}
 	
 	@GetMapping("/myrocks")
