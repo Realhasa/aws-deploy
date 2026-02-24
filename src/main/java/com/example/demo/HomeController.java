@@ -13,6 +13,6 @@ public class HomeController {
 	
 	@GetMapping("/myrocks")
 	public String rocks() {
-		return "Welcome to 3rd year DevOps world";
+		return "তোর মতন মানুষরা থাকলেই তো জীবনটা সুন্দর হয়ে যায় ভাই 💙";
 	}
 }
