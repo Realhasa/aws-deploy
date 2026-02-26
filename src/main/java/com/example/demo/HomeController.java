@@ -8,11 +8,11 @@ public class HomeController {
 	
 	@GetMapping("/csehome")
 	public String cseHome() {
-		return "😔😔 বাড়া** চুলকাচুলকি বাদ দিয়ে পড়তে বসেন";
+		return "😔😔 বাড়া** চুলকাচুলকি বাদ দিয়ে পড়তে বসেন and this is my first spring aws spring project";
 	}
 	
 	@GetMapping("/myrocks")
 	public String rocks() {
-		return "HELLO WORLD!!!!!!!! 💙";
+		return "HELLO WORLD!!!!!!!! 💙  and welcome to my jenkins project";
 	}
 }
